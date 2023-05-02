@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         ],
         child: Consumer<ThemeNotifier>(
           builder: (context, theme, child) => MaterialApp(
-            title: 'Chat',
+            title: 'Movies',
             debugShowCheckedModeBanner: false,
             theme: theme.getTheme(),
             home: const HomeScreen(),
