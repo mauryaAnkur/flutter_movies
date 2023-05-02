@@ -163,13 +163,13 @@ class MovieDetailScreen extends StatelessWidget {
                                                     const EdgeInsets.symmetric(
                                                         horizontal: 16.0,
                                                         vertical: 8.0),
-                                                margin: const EdgeInsets.all(5.0),
+                                                margin:
+                                                    const EdgeInsets.all(5.0),
                                                 decoration: BoxDecoration(
-                                                  //color: Colors.pinkAccent.shade200.withOpacity(0.6),
-                                                  color: Colors.white10,
-                                                  //border: Border.all(color: Color(0xFF282f61), width: 2.0),
+                                                  color: Colors.black54,
                                                   borderRadius:
-                                                      BorderRadius.circular(20.0),
+                                                      BorderRadius.circular(
+                                                          20.0),
                                                 ),
                                                 child: Text(
                                                   f['name'] ?? 'N/A',
@@ -196,40 +196,44 @@ class MovieDetailScreen extends StatelessWidget {
                         ),
                         Text(
                           'Tagline:',
-                          style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                                fontSize: 16,
-                                fontWeight: FontWeight.w600,
-                              ),
+                          style:
+                              Theme.of(context).textTheme.bodyMedium!.copyWith(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.w600,
+                                  ),
                         ),
                         const SizedBox(
                           height: 6,
                         ),
                         Text(
                           movieData['tagline'] ?? 'N/A',
-                          style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                                fontSize: 13,
-                                fontWeight: FontWeight.w500,
-                              ),
+                          style:
+                              Theme.of(context).textTheme.bodyMedium!.copyWith(
+                                    fontSize: 13,
+                                    fontWeight: FontWeight.w500,
+                                  ),
                         ),
                         SizedBox(
                           height: height * 0.02,
                         ),
                         Text(
                           'Overview:',
-                          style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                                fontSize: 16,
-                                fontWeight: FontWeight.w600,
-                              ),
+                          style:
+                              Theme.of(context).textTheme.bodyMedium!.copyWith(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.w600,
+                                  ),
                         ),
                         const SizedBox(
                           height: 6,
                         ),
                         Text(
                           movieData['overview'] ?? 'N/A',
-                          style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                                fontSize: 13,
-                                fontWeight: FontWeight.w500,
-                              ),
+                          style:
+                              Theme.of(context).textTheme.bodyMedium!.copyWith(
+                                    fontSize: 13,
+                                    fontWeight: FontWeight.w500,
+                                  ),
                         ),
                       ],
                     ),
